@@ -1,0 +1,72 @@
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-list,
+.user-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.task-card,
+.user-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.success {
+  color: green;
+  margin-bottom: 1rem;
+}
+#hello {
+    text-align: center;
+    margin: 4rem auto;
+    max-width: 600px;
+    padding: 2rem;
+    background-color: #f0f4f8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#hello h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+#hello p {
+    font-size: 1.2rem;
+    color: #555;
+}
