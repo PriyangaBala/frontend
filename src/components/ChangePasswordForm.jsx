@@ -10,6 +10,7 @@ function ChangePasswordForm({ onSubmit }) {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         onSubmit(formData);
